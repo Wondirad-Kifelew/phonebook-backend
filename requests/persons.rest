@@ -1,11 +1,12 @@
-get http://localhost:3001/api/persons
+
+get https://phonebook-backend-gvp9.onrender.com/api/persons
 
 ###
-delete http://localhost:3001/api/persons/2
+delete http://localhost:3001/api/persons/1
 
 ###
 POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
 
-{"name":"olaaa", "number":"040-123456"}
+{"name":"aa", "number":"040-123456"}
