@@ -1,12 +1,22 @@
-
 get https://phonebook-backend-gvp9.onrender.com/api/persons
 
 ###
-delete http://localhost:3001/api/persons/1
+get http://localhost:3001/api/persons/
+
+###
+GET http://localhost:3001/api/persons/6800f95902eaaf9b5f0c4372
+
+###
+delete http://localhost:3001/api/persons/67f3a56c14a92a7ea7ced6c4
 
 ###
 POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
+{"name":"am", "number": "45345245252"}
 
-{"name":"aa", "number":"040-123456"}
+###
+PUT http://localhost:3001/api/persons/6803d7947e0e5003dd6c7647
+Content-Type: application/json
+
+{"name": "so", "number": "23412124"}
